@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Dice Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800;900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+  <div class="container text-center">
+    <h1 class="display-3 text-danger">Roll the Dice Game</h1>
+    <p class="lead">Click on "Roll the Dice" button and play the game 🙂!</p>
+
+      <div class="row mb-4">        
+        <div class="col-sm-4 dicesContainer">
+          <p><i class="fas fa-user"></i> Player 1</p>
+          <div class="dices">
+            <img src="images/dice1.png" class="playerOneDiceOne" />
+            <img src="images/dice1.png" class="playerOneDiceTwo" />
+          </div>
+        </div>
+
+        <div class="col-sm-4 d-flex justify-content-center align-items-center flex-column my-4">
+          <div class="result text-success mb-4 resule"> Start the Game </div>
+          <button class="btn btn-dark btn-lg btnRollDice"><i class="fas fa-dice"></i> Roll the Dice</button>
+        </div>
+
+        <div class="col-sm-4 dicesContainer">
+          <p><i class="fas fa-user"></i> Player 2</p>
+          <div class="dices">
+            <img src="images/dice1.png" class="playerTwoDiceOne" />
+            <img src="images/dice1.png" class="playerTwoDiceTwo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>      
+   </div>   
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
